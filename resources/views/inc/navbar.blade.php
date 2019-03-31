@@ -19,9 +19,13 @@
                   <li class="nav-item">
                     <a class="nav-link" href="/posts">Products</a>
                   </li>
-                  {{-- <li class="nav-item">
-                      <a class="nav-link" href="/posts/home">Dashboard</a>
-                  </li>                 --}}
+                  <li class="nav-item">
+                      <input class="nav-item form-control" type="text" placeholder="Search">
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-item form-control" href="#"><small>Refine Search</small></a>
+                            
+                    </li>           
                   
                   
                   

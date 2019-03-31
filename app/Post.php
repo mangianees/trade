@@ -3,10 +3,20 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Scout\Searchable;
 
 class Post extends Model
 {
- public function user(){
+ 
+    use Searchable;
+
+    public function searchableAs()
+    {
+        return 'make';
+    }
+
+
+    public function user(){
      return $this->belongsTo('App\User');
  }
 }
