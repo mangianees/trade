@@ -8,9 +8,6 @@
     {{$Post->transmission}}
     {{$Post->fuel_type}}
     {{$Post->mileage}}
-
-
-
         
     @endforeach
 

@@ -22,5 +22,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/search/{SearchKey}', 'HomeController@search');
 //Route::get('/search','HomeController@search')->make('make');
 
-use Illuminate\Http\Request;
+
 
