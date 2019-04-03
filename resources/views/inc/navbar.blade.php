@@ -25,8 +25,9 @@
                   <li class="nav-item">
                         <a class="nav-item form-control" href="#"><small>Refine Search</gitsmall></a>
                             
-                    </li>           
+                   </li>           
                   
+                   <div id="autocomplete"></div>
                   
                   
                 </ul>
@@ -72,8 +73,11 @@
                               </form>
                           </div>
                       </li>
-                  @endguest
-              </ul>
+                  @endguest      
+      
+                </ul>
+
+
           </div>
       
   </nav>

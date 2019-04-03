@@ -31,13 +31,11 @@ class HomeController extends Controller
     }
 
 
-    public function search($SearchKey)
+    public function search()
     {
            
        
-       $Posts =Post::search('$SearchKey')->get(); return $Posts;
-       return view('inc.search',compact('Posts'));
-       
+    return view('posts.instantpost');
 
     }
 }

@@ -7,10 +7,12 @@
     {{$Post->model}}
     {{$Post->transmission}}
     {{$Post->fuel_type}}
-    {{$Post->mileage}}
-        
+    {{$Post->mileage}}       
+
     @endforeach
 
 
     This is search
+
+
 @endsection
